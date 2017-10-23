@@ -5,9 +5,15 @@ angular.module('nutricaoCloud').config([
         $stateProvider.state('dashboard', {
             url:"/dashboard",
             templateUrl:"dashboard/dashboard.html"
-        }).state('cadastroPacientes',{
+        }).state('pacientes',{
             url: "/pacientes",
+            templateUrl: "pacientes/pacientes.html"
+        }).state('cadastroPacientes',{
+            url: "/cadastro_pacientes",
             templateUrl: "pacientes/cadastro.html"
+        }).state('consultaPacientes',{
+            url: "/consulta_paciente",
+            templateUrl: "consulta/consulta.html"
         })
 
         $urlRouterProvider.otherwise('/dashboard')
