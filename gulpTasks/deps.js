@@ -28,7 +28,7 @@ gulp.task('deps.css', () => {
         'node_modules/admin-lte/dist/css/AdminLTE.min.css',
         'node_modules/admin-lte/dist/css/skins/_all-skins.min.css'
     ])
-    .pipe(uglifycss({"uglycomments":true}))
+    .pipe(uglifycss({"uglyComments":true}))
     .pipe(concat('deps.min.css'))
     .pipe(gulp.dest('public/assets/css'))
 })

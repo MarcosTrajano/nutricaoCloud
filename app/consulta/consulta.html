@@ -1,1 +1,27 @@
-<h1>consulta</h1>
+<section class="content-header">
+    <h1>Marcos Vinicius Trajano Cunha Lima<br>
+    <small>00 Anos</small> <small>0,00m</small> <small>0,00kg</small></h1>
+</section>
+
+<section class="content">
+    <div class="nav-tabs-custom">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href data-target="#anamnese">Anamnese</a></li>
+            <li><a data-toggle="tab" href data-target="#avaliacao">Avaliação</a></li>
+            <li><a data-toggle="tab" href data-target="#dieta">Dieta</a></li>
+            <li><a data-toggle="tab" href data-target="#planosAlimentares">Planos Alimentares</a></li>
+            <li><a data-toggle="tab" href data-target="#gastosEnergeticos">Gastos Energeticos</a></li>
+            <li><a data-toggle="tab" href data-target="#relatorios">Relatorios</a></li>
+        </ul>
+            
+        <div class="tab-content">
+            <div id="anamnese" class="tab-pane fade in active" ng-include="'consulta/anamnese.html'"></div>
+            <div id="avaliacao" class="tab-pane fade" ng-include="'consulta/avaliacao.html'"></div>
+            <div id="dieta" class="tab-pane fade" ng-include="'consulta/dieta.html'"></div>
+            <div id="planosAlimentares" class="tab-pane fade" ng-include="'consulta/planosAlimentares.html'"></div>
+            <div id="gastosEnergeticos" class="tab-pane fade" ng-include="'consulta/gastosEnergeticos.html'"></div>
+            <div id="relatorios" class="tab-pane fade" ng-include="'consulta/relatorios.html'"></div>
+        </div>
+    </div>
+ 
+</section>
