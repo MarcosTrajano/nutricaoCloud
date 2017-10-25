@@ -27,14 +27,49 @@
             </form>
         </div>
         <div class="col-sm-6">
-            <div class="form-group">
-                <label for="protocolo">Protocolo</label>
-                <select name="protocolo" class="form-control">
-                    <option value="">
-                    <option value="dogs">Dogs
-                    <option value="tuts">Tutorials
-                    <option value="cars">Cars
-                </select>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Habitos de Vida</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-toggle="collapse" data-target="#habitosDeVida">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse" id="habitosDeVida" ng-include="'consulta/anamnese/habitosDeVida.html'"></div>
+            </div>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Habitos de Alimentares</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-toggle="collapse" data-target="#habitosAlimentares">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse" id="habitosAlimentares" ng-include="'consulta/anamnese/habitosAlimentares.html'"></div>
+            </div>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Patologia</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-toggle="collapse" data-target="#patologia">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse" id="patologia" ng-include="'consulta/anamnese/patologia.html'"></div>
+            </div>
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Sintomas</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-toggle="collapse" data-target="#sintomas">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="collapse" id="sintomas" ng-include="'consulta/anamnese/sintomas.html'"></div>
             </div>
         </div>
     </div>
