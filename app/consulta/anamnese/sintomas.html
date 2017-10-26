@@ -1,0 +1,77 @@
+<div class="box">
+    <div class="box-body">
+        <form role="form">
+            <div class="row"><div class="col-sm-12"><h5>Sintomas</h5></div></div>
+            <div class="form-group col-sm-6">
+                <label for="grupo">Grupo</label>
+                <select name="grupo" id="grupo" class="form-control">
+                    <option value="">
+                    <option value="articulacoes">Articulações
+                    
+                </select>
+            </div>
+            <div class="form-group col-sm-6">
+                <label for="sintomas">Sintomas</label>
+                <select name="sintomas" id="sintomas" class="form-control">
+                    <option value="">
+                    <option value="dores">Dores
+                </select>
+            </div>
+            <div class="col-sm-12"><button class="btn btn-primary">Incluir</button></div>
+            <div class="com-sm-12">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Sintomas</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>Dores(Articulações)</td>
+                            <td>
+                                <span class="badge bg-red" style="margin-left: 22%; margin-right: 5%" ui-sref="consultaPacientes">excluir</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="com-sm-12">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Deficiencia de Nutrientes</th>
+                            <th>Excesso de Nutrientes</th>
+                        </tr>
+                        <tr>
+                            <td>Magnesio <span class="badge bg-blue" style="margin-left: 22%; margin-right: 5%" ui-sref="consultaPacientes">Mg</span></td>
+                            <td>
+                                Vitamina <span class="badge bg-blue" style="margin-left: 22%; margin-right: 5%" ui-sref="consultaPacientes">A</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-group col-md-12">
+                <div class="col-md-10" style="padding: 0;">
+                    <label for="antecedentes">Antecedentes</label>
+                    <textarea class="form-control" name="antecedentes" id="antecedentes" cols="2" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-group col-md-12">
+                <div class="col-md-10" style="padding: 0;">
+                    <label for="gatilhos">Gatilhos</label>
+                    <textarea class="form-control" name="gatilhos" id="gatilhos" cols="2" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-group col-md-12">
+                <div class="col-md-10" style="padding: 0;">
+                    <label for="outrasPatologias">Outras Patologias</label>
+                    <textarea class="form-control" name="outrasPatologias" id="outrasPatologias" cols="2" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="col-sm-12" style="margin-left: 25%;">
+                <button class="btn btn-primary" style="margin-right:5px">Cadastrar</button>
+                <button class="btn ">cancelar</button>
+            </div>
+        </form>
+    </div>
+</div>
