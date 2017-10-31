@@ -1,1 +1,133 @@
-<h1>avaliação</h1>
+<section class="content">
+    <div class="row">
+        <form>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Dados Antropométricos</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="form-group" style="margin-top: 15px;">
+                            <div class="col-sm-4">
+                                <label>Data</label>
+                                <input type="date" id="dataAvaliacao" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-4">
+                                <label>Cintura</label>
+                                <input type="number" id="cintura" class="form-control" placeholder="cm">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-4">
+                                <label>Quadril</label>
+                                <input type="number" id="quadril" class="form-control" placeholder="cm">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h5 style="font-weight: bold;">Resultados</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="border: 0;">RAG (Relacação cintura-quadril): <span>00,00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <table class="table">
+                        <tr>
+                            <th style="text-align:center">Avaliações Realizadas</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">31/10/2017</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Avaliação Nutricional - IMC</h4>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group" style="margin-top: 15px;">
+                        <div class="col-sm-4">
+                            <label>Data</label>
+                            <input type="date" id="dataAvaliacao" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label>Peso</label>
+                            <input type="number" id="peso" class="form-control" placeholder="Kg">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label>Altura</label>
+                            <input type="number" id="altura" class="form-control" placeholder="cm">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label>Paciente em leito</label>
+                            <div class="col-sm-4">
+                                <p>Sim</p>
+                                <input name="pacienteEmLeito" type="radio" id="sim">
+                            </div>
+                            <div class="col-sm-4">
+                                <p>Não</p>
+                                <input name="pacienteEmLeito" type="radio" id="nao">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            <label>Atividade</label>
+                            <select class="form-control">
+                                <option value=""></option>
+                                <option value="leve">Leve</option>
+                                <option value="moderada">Moderada</option>
+                                <option value="intensa">Intensa</option>
+                                <option value="aposentado">Aposentado(a)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <table class="table">
+                        <tr>
+                            <th style="text-align:center">Avaliações Realizadas</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center">31/10/2017</td>
+                        </tr>   
+                    </table>
+                </div>
+                <div class="col-sm-8">
+                    <h5>Resultados</h5>
+                    <ul class="list-group col-sm-4">
+                        <li class="list-group-item" style="border: 0;">PT Máx. (Kg): <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">PT (Kg): <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">PT Min. (Kg): <span>00,00</span></li>
+                    </ul>
+                    <ul class="list-group col-sm-4">
+                        <li class="list-group-item" style="border: 0;">I.M.C (Kg/m²): <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">Estado Nutricional: <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">VET - Peso (kcal): <span>00,00</span></li>
+                    </ul>
+                    <ul class="list-group col-sm-4">
+                        <li class="list-group-item" style="border: 0;">VET Máx. (Kcal): <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">VET PT (Kcal): <span>00,00</span></li>
+                        <li class="list-group-item" style="border: 0;">VET Min. (Kcal): <span>00,00</span></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <h5>Diagnóstico:</h5>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary">Salvar</button> <button class="btn">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</section>
