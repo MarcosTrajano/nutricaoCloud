@@ -17,6 +17,9 @@ angular.module('nutricaoCloud').config([
         }).state('anamnese',{
             url: "/consulta_paciente",
             templateUrl: "consulta/anamnese.html"
+        }).state('dieta',{
+            url: "/consulta_paciente",
+            templateUrl: "consulta/formDieta.html"
         })
 
         $urlRouterProvider.otherwise('/dashboard')

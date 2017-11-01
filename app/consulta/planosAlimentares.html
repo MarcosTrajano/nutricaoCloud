@@ -1,1 +1,99 @@
-<h1>Planos Alimentares</h1>
+<section class="container">
+    <div class="row">
+        <form action="">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea class="form-control" name="descricao" id="descricao" cols="2" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <label>Tipo</label>
+                        <div class="col-sm-12">
+                            <div class="row"><input name="tipo" type="radio" id="calculado">Plano Calculado</div><br>
+                            <div class="row"><input name="tipo" type="radio" id="manual">Plano Manual</div><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <label>Dias da Semana</label>
+                        <div class="col-sm-12">
+                            <div class="row"><input name="semana" type="checkbox" id="segunda">Segunda-Feira</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="terca">Terça-Feira</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="quarta">Quarta-Feira</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="quinta">Quinta-Feira</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="sexta">Sexta-Feira</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="sabado">Sabado</div><br>
+                            <div class="row"><input name="semana" type="checkbox" id="domingo">Domingo</div><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <label>Refeições</label>
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <label for="horario">Horario</label>
+                        <input type="String" class="form-control"id="horario" placeholder="00:00">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4">
+                        <label for="descricao">Descrição</label>
+                        <select class="form-control" id="descricao">
+                            <option value=""></option>
+                            <option value="cafe">Café da manhã</option>
+                            <option value="lancheManha">Lanche da manhã</option>
+                            <option value="almoco">Almoço</option>
+                            <option value="lancheTarde">Lanche da Tarde</option>
+                            <option value="janta">Jantar</option>
+                            <option value="lancheNoite">Lanche da Noite</option>
+                            <option value="lancheExtra1">Lanche Extra 1</option>
+                            <option value="lancheExtra2">Lanche Extra 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <label for="Observacao">Observacao</label>
+                        <textarea class="form-control" name="Observacao" id="Observacao" cols="2" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                        
+                    <div class="col-sm-7">
+                        <label for="tabelaAlimentos">Tabela de alimentos</label>
+                        <select class="form-control" id="tabelaAlimentos">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-7">
+                        <label for="alimentos">Alimento</label>
+                        <select class="form-control" id="alimentos">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label for="porcao">Porção</label>
+                        <select class="form-control" id="porcao">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="text" class="form-control" id="quantidade" placeholder="0">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
