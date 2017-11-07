@@ -1,1 +1,82 @@
-<h1>Gastos Energeticos</h1>
+<section class="container">
+    <div class="row">
+        <form>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao" id="descricao" cols="2" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9">
+                        <label for="data">Data</label>
+                        <input type="date" name="data" id="data" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-5">
+                        <label for="peso">Peso</label>
+                        <input type="number" id="peso" name="peso" class="form-control" placeholder="Kg">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-5">
+                        <label for="altura">Altura</label>
+                        <input type="number" id="altura" name="altura" class="form-control" placeholder="cm">
+                    </div>
+                </div>
+              
+                <div class="form-group">
+                    <div class="col-sm-5">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" name="idade" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <div class="col-sm-7">
+                        <label>Protocolo</label>
+                        <select class="form-control">
+                            <option value=""></option>
+                            <option value="Harris e Benedict (1919)">Harris e Benedict (1919)</option>
+                            <option value="FAO/OMS (2001)">FAO/OMS (2001)</option>
+                            <option value="FAO/OMS (1985)">FAO/OMS (1985)</option>
+                            <option value="DRI/IOM (2001)">DRI/IOM (2001)</option>
+                            <option value="Cunningham (1991)">Cunningham (1991)</option>
+                            <option value="Regra de bolso">Regra de bolso</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-7">
+                        <label>Nivel de Atividade</label>
+                        <select class="form-control">
+                            <option value=""></option>
+                            <option value="leve">Leve</option>
+                            <option value="moderada">Moderada</option>
+                            <option value="pesada">Pesada</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">Taxa de Metabolismo Basal:</div>
+                    <div class="row">Gasto Energetico Total:</div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-6">
+                        <label for="gastoEnergeticoTotal">Gasto Energético Total</label>
+                        <input type="number" id="gastoEnergeticoTotal" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12" style="margin-left: 25%;">
+                <button class="btn btn-primary" style="margin-right:5px">Cadastrar</button>
+                <button class="btn ">cancelar</button>
+            </div>
+        </form>
+
+    </div>
+
+</section>
